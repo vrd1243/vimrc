@@ -30,7 +30,7 @@
 " ################################################################
 
 " Useful for programmers to automatically perform indentation for various languages to present
-" a better looking code. Smartindent is one such option. The good thing I like about it is, it
+" a better looking code. smartindent is one such option. The good thing I like about it is, it
 " learns the ways you comment for future indentations.
 :set smartindent
 
@@ -82,8 +82,8 @@
 " a file, when entering or leaving a buffer or window, and when exiting Vim.
 " This is done by the autocmd command (abbreviated as au).
 
-" BufReadPost : When starting to edit a new buffer, after reading the file into the buffer, before executing the modelines, BufReadPost contains the state of the buffer. 
-" This would determine where the last line of the file is, using $, and where the location of the current line is when the file was last closed, using the '\" character. 
+" BufReadPost indicates that we will fire the autocommand when the buffer has been read, but modelines are yet to be executed.
+" The action would determine where the last line of the file is, using $, and where the location of the current line is when the file was last closed, using the '\" character. 
 
 " The exe command does the execution of the command provided as argument. 
 " normal! indicates execute in the normal mode, by clearing any mappings when executing. This is done, because
