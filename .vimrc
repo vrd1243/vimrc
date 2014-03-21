@@ -30,7 +30,7 @@
 " ################################################################
 
 " Useful for programmers to automatically perform indentation for various languages to present
-" a better looking code. Smartindent is one such option. The good thing I like about it is, it
+" a better looking code. smartindent is one such option. The good thing I like about it is, it
 " learns the ways you comment for future indentations.
 :set smartindent
 
